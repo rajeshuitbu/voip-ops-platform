@@ -2,24 +2,30 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-# Virtual Environment
+# Virtual Environments
 venv/
+.env
 
 # Logs
 *.log
 
-# VS Code
+# IDE
 .vscode/
+.idea/
 
-# Linux
-*.swp
-
-# Environment
-.env
+# OS
+.DS_Store
+Thumbs.db
 
 # Python cache
 .pytest_cache/
 
-# Mac
-.DS_Store
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
